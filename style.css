@@ -1,0 +1,123 @@
+.total{
+	width: 1000px;
+	margin: 0 auto;
+	border-radius: 25px;
+	background-color:#B3D8FC;
+} /*-------------dopdown css start---------*/
+.dropbtn {
+  background-color:#B3D8FC;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: gray}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: yellow;
+}
+.nav a{
+ padding: 20px 30px;
+ color: black;
+ font-size: 18px;
+ text-decoration: none;
+}
+.nav a img{
+	padding: 10px 20px;
+	width: 80px;
+}
+.nav .btns{
+	background: skyblue;
+	padding: 10px 20px;
+	border-radius: 15px;
+}
+.nav .btns:hover{
+color: red;
+}
+/*-------------dopdown css end---------*/
+/*--------------img shadow start-------------------*/
+.imgs img{
+    float:right;
+	width:250px;
+	height:80px;
+	box-shadow: 2px 15px 15px 2px red;
+
+}
+/*--------------img shadow end-------------------*/
+/*--------------content section start-------------------*/
+.content{
+	width: 1000px;
+	height: 300px;
+	text-align: center;
+	background: skyblue ;
+	text-shadow: 2px 2px;
+}
+.content h2:hover{
+    background: green;
+}
+.content h2{
+    padding: 0px 20px;
+
+}
+.content h2,font:hover{
+	background-color: yellow;
+	font-family: arial;
+}
+/*--------------content section end-------------------*/
+/*------------- footer start--------*/
+.footer ul{
+text-align: center;
+list-style: none;
+}
+.footer ul li{
+	display:inline-block;
+	margin: 0px 0px;
+}
+.footer ul li a{
+	width: 45px;
+	height: 35px;
+	background: #DC5130;
+	display: block;
+	padding-top: 15px;
+	color: #fafafa;
+	border-radius: 7px;
+	margin: 25px;
+	box-shadow: 3px 5px;
+	transition: 1s;
+}
+.footer ul li a:hover{
+background: darkcyan;
+}
+.footer ul li button{
+	background: gray;
+	padding: 10px 20px;
+	border-radius: 15px;
+}
+/*------------- footer end--------*/
